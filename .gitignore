@@ -74,3 +74,33 @@ Thumbs.db
 # Backup files
 *.bak
 *.backup
+
+# -------------------------
+# Project specific ignores
+# -------------------------
+
+# Large datasets (keep small sample CSVs only)
+*.csv
+!sample_institutions.csv
+!requirements.txt
+
+# Shapefiles and GIS large files
+*.shp
+*.dbf
+*.shx
+*.sbn
+*.sbx
+*.prj
+*.cpg
+*.xml
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# PDFs (reports, docs)
+*.pdf
+
+# Streamlit configs
+.streamlit/
