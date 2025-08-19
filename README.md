@@ -1,6 +1,6 @@
-# Indian Institutes for Skill Development and Entrepreneurship
+# ITI Visualization - Industrial Training Institutes in India
 
-A Streamlit web application for visualizing Industrial Training Institutes (ITIs) across India with interactive choropleth maps and statistical insights.
+A comprehensive Streamlit web application for visualizing Industrial Training Institutes (ITIs) across India with interactive choropleth maps and statistical insights. This project includes a dataset with district, state, category type, ITI name, city, and geo-coordinates, enabling interactive maps, state-wise comparisons, and category-based insights into ITI distribution.
 
 ## 🌟 Features
 
@@ -28,8 +28,8 @@ A Streamlit web application for visualizing Industrial Training Institutes (ITIs
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd project
+   git clone https://github.com/Srikara-Satya/ITI_Visualization.git
+   cd ITI_Visualization
    ```
 
 2. **Create virtual environment**
@@ -41,7 +41,7 @@ A Streamlit web application for visualizing Industrial Training Institutes (ITIs
    ```bash
    # Windows
    venv\Scripts\activate
-   
+
    # macOS/Linux
    source venv/bin/activate
    ```
@@ -101,7 +101,7 @@ Your data should include these columns:
 ## 📁 Project Structure
 
 ```
-project/
+ITI_Visualization/
 ├── app.py                          # Main Streamlit application
 ├── requirements.txt                # Python dependencies
 ├── sample_institutions.csv         # Sample data file
@@ -152,7 +152,7 @@ Share: `http://YOUR_IP:8501`
 ## 🎨 Color Scheme
 
 - **Green**: Highest number of institutions
-- **Yellow**: Medium number of institutions  
+- **Yellow**: Medium number of institutions
 - **Red**: Lowest number of institutions
 - **Light Gray**: Boundaries and borders
 
