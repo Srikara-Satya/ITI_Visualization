@@ -1,0 +1,7 @@
+geopandas
+pandas
+streamlit
+folium
+streamlit-folium
+openpyxl
+psycopg2-binary
